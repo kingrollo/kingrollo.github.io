@@ -1,0 +1,178 @@
+<div class="row">
+
+	<div class="release col-xs-12 col-sm-5 col-md-4 col-lg-3" ng-if="release">
+		<div>
+			<img style="sleeve" ng-src="images/{{release.image}}" alt="{{release.title}} sleeve" class="img-responsive" width="100%">
+		</div>
+	</div>
+
+	<div class="col-xs-12" ng-if="about">
+
+		<h2>
+			Solo
+		</h2>
+		<p>
+			I made a couple of albums of instrumental electronic music a very long time ago.
+			My current project is remastering these and getting them back out into the wild,
+			with companion albums containing bonus tracks and previously unreleased material.
+			You can find more information about them by clicking on the cover pictures below.
+		</p>
+		<h2>
+			Duo
+		</h2>
+		<p>
+			I'm also half of a synthpop duo called <a href="http://hypernova.org.uk/">Hypernova</a>.
+			We haven't done an awful lot recently, but still have plans for world domination.
+		</p>
+		<h2>
+			Blog
+		</h2>
+		<p>
+			I also run a blog called <a href="https://musicforstowaways.wordpress.com/">Music for Stowaways</a>,
+			which I started in 2012 in an attempt to keep my knowledge of music "current".
+			It no longer is, but the blog soldiers on...
+		</p>
+
+	</div>
+
+	<div class="col-xs-12 col-sm-7 col-md-8 col-lg-9" ng-if="release">
+
+		<div class="info">
+			<h2>
+				{{release.title}}
+			</h2>
+			<div class="subtext">
+				<span class="type">
+					{{release.type}}
+				</span>
+				<span ng-if="release.parent">
+					from the {{release.parent.type}} <a href="{{release.parent.url}}">
+						{{release.parent.title}}
+					</a>
+				</span>
+				<span class="date">
+					- released {{release.date}}
+				</span>
+				<span ng-if="release.deleted">
+					- not currently available
+				</span>
+			</div>
+			<div class="tracks">
+				<div class="track" ng-repeat="track in release.tracks">
+					<span class="tracknumber">
+						{{track.track}}
+					</span>
+					<span class="tracklisting">
+						<span class="tracktitle">
+							{{track.title}}
+						</span>
+						<span ng-if="track.version" class="trackversion">
+							({{track.version}})
+						</span>
+						<span class="tracktime">
+							{{track.time}}
+						</span>
+						<span ng-if="track.bonus" class="trackbonus">
+							[bonus track]
+						</span>
+					</span>
+				</div>
+			</div>
+			<div class="assets" ng-if="release.booklet">
+				<a href="assets/{{release.booklet}}" target="_self">
+					Click here to download booklet
+				</a>
+			</div>
+		</div>
+
+		<div class="player" ng-if="release.player_src">
+			<iframe style="border: 0; width: 100%; height: 120px;" src="{{release.player_src}}" seamless>
+				<a href="{{release.player_url}}">
+					Listen to {{release.title}}
+				</a>
+			</iframe>
+		</div>
+
+		<div class="player" ng-if="!release.player_src && release.player_url">
+			<a href="{{release.player_url}}">
+				Listen to {{release.title}}
+			</a>
+		</div>
+
+	</div>
+
+</div>
+
+<div class="row" ng-if="release && !release.parent">
+	<div class="col-xs-12">
+
+		<h2>
+			Other releases from this project
+		</h2>
+
+	</div>
+</div>
+
+<div ng-if="release">
+	<div class="row" ng-repeat="other in releases | orderBy: ['sort'] | filter: releaseFamily">
+
+		<div class="col-xs-10" class="info">
+
+			<h3>
+				{{other.title}}
+			</h3>
+			<div class="subtext">
+				<span class="type">
+					{{other.type}}
+				</span>
+				<span class="date" ng-if="other.released !== false">
+					- released {{other.date}}
+				</span>
+				<span class="date" ng-if="other.released === false">
+					- unreleased
+				</span>
+			</div>
+			<div class="tracks">
+				<span class="trackx" ng-repeat="track in other.tracks">
+
+					<span class="tracktitle">
+						{{track.title}}
+					</span>
+					<span ng-if="track.version" class="trackversion">
+						({{track.version}})
+					</span>
+					<span>
+						{{$last ? '' : ' / '}}
+					</span>
+
+				</span>
+			</div>
+
+		</div>
+
+		<div class="release col-xs-2">
+			<img ng-src="images/{{other.image}}" class="img-responsive" width="100%">
+		</div>
+
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-12">
+
+		<h2>
+			Discography
+		</h2>
+
+	</div>
+</div>
+
+<div class="row">
+
+	<div class="release col-xs-6 col-sm-4 col-md-3 col-lg-2" ng-repeat="other in releases | orderBy: ['sort'] | filter: mainDiscography">
+		<a href="music/{{other.url}}">
+			<img ng-src="images/{{other.image}}" class="img-responsive" width="100%">
+		</a>
+	</div>
+
+</div>

@@ -1,0 +1,493 @@
+[
+  {
+    "id": "BC10",
+    "type": "album",
+    "title": "From Roots to Branches",
+    "url": "from-roots-to-branches",
+    "image": "BC10.png",
+    "date": "2002-10-07",
+    "player_site": "BC",
+    "player_id": "1466450798",
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Landscape #1 (Atmos / Pianissimo / Deep Breaths)",
+        "time": "7:09"
+      },
+      {
+        "track": 2,
+        "title": "Leaving Home",
+        "time": "4:52"
+      },
+      {
+        "track": 3,
+        "title": "Charmed Life",
+        "time": "6:01"
+      },
+      {
+        "track": 4,
+        "title": "Euphoria",
+        "time": "6:42"
+      },
+      {
+        "track": 5,
+        "title": "Landscape #2 (Reality / Virtuality)",
+        "time": "5:52"
+      },
+      {
+        "track": 6,
+        "title": "Illusions of Twilight",
+        "time": "3:57"
+      },
+      {
+        "track": 7,
+        "title": "Forgotten Summer",
+        "time": "5:42"
+      },
+      {
+        "track": 8,
+        "title": "Death Row",
+        "time": "7:37"
+      },
+      {
+        "track": 9,
+        "title": "Landscape #3 (Final Moments)",
+        "time": "5:19"
+      }
+    ]
+  },
+  {
+    "id": "BC11",
+    "parent": "BC10",
+    "type": "single",
+    "title": "Landscape #1",
+    "url": "landscape-1",
+    "image": "BC11.png",
+    "date": "2002-09-30",
+    "deleted": true,
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Landscape #1",
+        "version": "Short Version",
+        "time": "4:36"
+      },
+      {
+        "track": 2,
+        "title": "The Joy of Sorrow",
+        "time": "3:56"
+      },
+      {
+        "track": 3,
+        "title": "Charmed Life",
+        "version": "Original Version",
+        "time": "4:17"
+      }
+    ]
+  },
+  {
+    "id": "BC12",
+    "parent": "BC10",
+    "type": "single",
+    "title": "Forgotten Summer",
+    "url": "forgotten-summer",
+    "image": "BC12.png",
+    "date": "2002-11-25",
+    "deleted": true,
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Forgotten Summer",
+        "version": "Single Version",
+        "time": "4:24"
+      },
+      {
+        "track": 2,
+        "title": "Phases of the Storm",
+        "time": "3:25"
+      },
+      {
+        "track": 3,
+        "title": "Euphoria",
+        "version": "Ambient Version",
+        "time": "5:37"
+      }
+    ]
+  },
+  {
+    "id": "BC13",
+    "parent": "BC10",
+    "type": "promo sampler",
+    "title": "After the Storm",
+    "url": "after-the-storm",
+    "image": "BC13.png",
+    "date": "2003-01-06",
+    "deleted": true,
+    "released": false,
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Illusions of Twilight",
+        "version": "New Version Edit",
+        "time": "3:34"
+      },
+      {
+        "track": 2,
+        "title": "Euphoria",
+        "version": "Radio Version",
+        "time": "4:06"
+      },
+      {
+        "track": 3,
+        "title": "Leaving Home",
+        "version": "Fairytale Version",
+        "time": "4:52"
+      },
+      {
+        "track": 4,
+        "title": "The Joy of Sorrow",
+        "version": "Dance Version",
+        "time": "4:54"
+      },
+      {
+        "track": 5,
+        "title": "Landscape #2",
+        "version": "Vinyl Version",
+        "time": "5:57"
+      },
+      {
+        "track": 6,
+        "title": "Illusions of Twilight",
+        "version": "New Version Extended",
+        "time": "4:44"
+      },
+      {
+        "track": 7,
+        "title": "Landscape #1",
+        "version": "Soundtrack Version",
+        "time": "5:28"
+      }
+    ]
+  },
+  {
+    "id": "BC14",
+    "parent": "BC10",
+    "type": "single",
+    "title": "Illusions of Twilight",
+    "url": "illusions-of-twilight",
+    "image": "BC14.png",
+    "date": "2003-02-10",
+    "deleted": true,
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Illusions of Twilight",
+        "version": "New Version Extended",
+        "time": "4:44"
+      },
+      {
+        "track": 2,
+        "title": "Paths to Eternity",
+        "version": "Single Version",
+        "time": "4:19"
+      },
+      {
+        "track": 3,
+        "title": "Leaving Home",
+        "version": "Fairytale Version",
+        "time": "4:52"
+      }
+    ]
+  },
+  {
+    "id": "BC15",
+    "parent": "BC10",
+    "type": "compilation",
+    "title": "Fallen Leaves",
+    "url": "fallen-leaves",
+    "image": "BC15.png",
+    "date": "2017-11-05",
+    "player_site": "BC",
+    "player_id": "3380013938",
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Landscape #1",
+        "version": "Short Version",
+        "time": "4:36"
+      },
+      {
+        "track": 2,
+        "title": "The Joy of Sorrow",
+        "time": "3:56"
+      },
+      {
+        "track": 3,
+        "title": "Charmed Life",
+        "version": "Original Version",
+        "time": "4:17"
+      },
+      {
+        "track": 4,
+        "title": "Forgotten Summer",
+        "version": "Single Version",
+        "time": "4:24"
+      },
+      {
+        "track": 5,
+        "title": "Phases of the Storm",
+        "time": "3:25"
+      },
+      {
+        "track": 6,
+        "title": "Euphoria",
+        "version": "Ambient Version",
+        "time": "5:37"
+      },
+      {
+        "track": 7,
+        "title": "Illusions of Twilight",
+        "version": "New Version Extended",
+        "time": "4:44"
+      },
+      {
+        "track": 8,
+        "title": "Euphoria",
+        "version": "Radio Version",
+        "time": "4:06"
+      },
+      {
+        "track": 9,
+        "title": "Leaving Home",
+        "version": "Fairytale Version",
+        "time": "4:52"
+      },
+      {
+        "track": 10,
+        "title": "The Joy of Sorrow",
+        "version": "Dance Version",
+        "time": "4:54"
+      },
+      {
+        "track": 11,
+        "title": "Landscape #2",
+        "version": "Vinyl Version",
+        "time": "5:57"
+      },
+      {
+        "track": 12,
+        "title": "Landscape #1",
+        "version": "Soundtrack Version",
+        "time": "5:28"
+      }
+    ]
+  },
+  {
+    "id": "BC16",
+    "parent": "BC10",
+    "type": "ep",
+    "title": "The Branch Line EP",
+    "url": "the-branch-line-ep",
+    "image": "BC16.png",
+    "date": "2017-12-02",
+    "deleted": true,
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Charmed Life",
+        "version": "Demo Version",
+        "time": "3:47"
+      },
+      {
+        "track": 2,
+        "title": "Mustard Seeds",
+        "version": "Demo Version",
+        "time": "1:26"
+      },
+      {
+        "track": 3,
+        "title": "The Joy of Sorrow",
+        "version": "Alternative Version",
+        "time": "3:38"
+      },
+      {
+        "track": 4,
+        "title": "Illusions of Twilight",
+        "version": "Samples",
+        "time": "1:24"
+      },
+      {
+        "track": 5,
+        "title": "Euphoria",
+        "version": "Demo Version",
+        "time": "3:01"
+      },
+      {
+        "track": 6,
+        "title": "Death Row",
+        "version": "Demo Version",
+        "time": "3:14"
+      },
+      {
+        "track": 7,
+        "title": "Illusions of Twilight",
+        "version": "New Version Edit",
+        "time": "3:34"
+      }
+    ]
+  },
+  {
+    "id": "BC20",
+    "type": "album",
+    "title": "Shadowsphere",
+    "url": "shadowsphere",
+    "image": "BC20.png",
+    "date": "2003-09-29",
+    "deleted": true,
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Noise Gate",
+        "time": "2:16"
+      },
+      {
+        "track": 2,
+        "title": "Paths to Eternity",
+        "time": "5:45"
+      },
+      {
+        "track": 3,
+        "title": "Signs",
+        "time": "3:13"
+      },
+      {
+        "track": 4,
+        "title": "The People Were Crying",
+        "time": "3:26"
+      },
+      {
+        "track": 5,
+        "title": "Shapeshifter",
+        "time": "7:04"
+      },
+      {
+        "track": 6,
+        "title": "Alien Worlds",
+        "time": "4:17"
+      },
+      {
+        "track": 7,
+        "title": "Great Nowhere",
+        "time": "4:43"
+      },
+      {
+        "track": 8,
+        "title": "Infinite Wisdom",
+        "time": "5:25"
+      },
+      {
+        "track": 9,
+        "title": "Fading Synthesis",
+        "time": "4:22"
+      },
+      {
+        "track": 10,
+        "title": "Water",
+        "time": "2:22"
+      },
+      {
+        "track": 11,
+        "title": "Ice Palace",
+        "time": "7:48"
+      },
+      {
+        "track": 12,
+        "title": "Dark Places",
+        "time": "5:35"
+      }
+    ]
+  },
+  {
+    "id": "BC21",
+    "parent": "BC20",
+    "type": "promo sampler",
+    "title": "Visual Medium",
+    "url": "visual-medium",
+    "image": "BC21.png",
+    "date": "2003-04-28",
+    "released": false,
+    "deleted": true,
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Dark Places",
+        "version": "Part 1",
+        "time": "4:08"
+      },
+      {
+        "track": 2,
+        "title": "Alien Worlds",
+        "version": "Full Version",
+        "time": "4:47"
+      },
+      {
+        "track": 3,
+        "title": "Landscape #1",
+        "version": "Soundtrack Version",
+        "time": "5:28"
+      },
+      {
+        "track": 4,
+        "title": "Dark Places",
+        "version": "Reprise",
+        "time": "1:30"
+      }
+    ]
+  },
+  {
+    "id": "BC22",
+    "parent": "BC20",
+    "type": "ep",
+    "title": "Signs EP",
+    "url": "signs-ep",
+    "image": "BC22.png",
+    "date": "2003-06-30",
+    "deleted": true,
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Signs",
+        "time": "3:14"
+      },
+      {
+        "track": 2,
+        "title": "Ice Palace",
+        "version": "Edit",
+        "time": "3:59"
+      },
+      {
+        "track": 3,
+        "title": "Great Nowhere",
+        "version": "Edit",
+        "time": "3:47"
+      },
+      {
+        "track": 4,
+        "title": "Dark Places",
+        "version": "Part 1",
+        "time": "4:08"
+      }
+    ]
+  },
+  {
+    "id": "BC23",
+    "parent": "BC20",
+    "type": "planned ep",
+    "title": "Fading Synthesis EP",
+    "url": "fading-synthesis-ep",
+    "image": "BC23.png",
+    "date": "2004-05-25",
+    "deleted": true,
+    "released": false
+  }
+]
