@@ -343,7 +343,8 @@
     "url": "shadowsphere",
     "image": "BC20.png",
     "date": "2003-09-29",
-    "deleted": true,
+    "player_site": "BC",
+    "player_id": "3437674520",
     "tracks": [
       {
         "track": 1,
