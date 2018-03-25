@@ -539,5 +539,90 @@
         "time": "5:36"
       }
     ]
+  },
+  {
+    "id": "BC25",
+    "parent": "BC20",
+    "type": "compilation",
+    "title": "Hidden Paths",
+    "url": "hidden-paths",
+    "image": "BC25.png",
+    "date": "2018-03-24",
+    "player_site": "BC",
+    "player_id": "904560374",
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Noise Gate",
+        "version": "Original Demo",
+        "time": "1:21"
+      },
+      {
+        "track": 2,
+        "title": "Paths to Eternity",
+        "version": "Single Version",
+        "time": "4:20"
+      },
+      {
+        "track": 3,
+        "title": "Great Nowhere",
+        "version": "Edit",
+        "time": "3:48"
+      },
+      {
+        "track": 4,
+        "title": "Ice Palace",
+        "version": "Edit",
+        "time": "4:09"
+      },
+      {
+        "track": 5,
+        "title": "Dark Places",
+        "version": "Part 1",
+        "time": "4:09"
+      },
+      {
+        "track": 6,
+        "title": "Alien Worlds",
+        "version": "Full Version",
+        "time": "4:56"
+      },
+      {
+        "track": 7,
+        "title": "Infinite Wisdom",
+        "version": "Short Mix",
+        "time": "3:02"
+      },
+      {
+        "track": 8,
+        "title": "Fading Synthesis",
+        "version": "Radio Mix",
+        "time": "4:07"
+      },
+      {
+        "track": 9,
+        "title": "Shapeshifter",
+        "version": "Original Demo",
+        "time": "3:02"
+      },
+      {
+        "track": 10,
+        "title": "Great Nowhere",
+        "version": "Ride Demo",
+        "time": "3:36"
+      },
+      {
+        "track": 11,
+        "title": "Ice Palace",
+        "version": "Full Version",
+        "time": "8:35"
+      },
+      {
+        "track": 12,
+        "title": "Dark Places",
+        "version": "Reprise",
+        "time": "1:29"
+      }
+    ]
   }
 ]
