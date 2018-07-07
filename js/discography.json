@@ -624,5 +624,42 @@
         "time": "1:29"
       }
     ]
+  },
+  {
+    "id": "BC31",
+    "parent": "BC20",
+    "type": "single",
+    "title": "Alien Worlds (Reverse Engineered)",
+    "url": "alien-worlds-reverse-engineered",
+    "image": "BC31.png",
+    "date": "2018-07-01",
+    "player_site": "BC",
+    "player_id": "3807635728",
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Alien Worlds",
+        "version": "Planet XVIII Single Mix",
+        "time": "3:47"
+      },
+      {
+        "track": 2,
+        "title": "Alien Worlds",
+        "version": "Reverse Engineered",
+        "time": "4:54"
+      },
+      {
+        "track": 3,
+        "title": "Alien Worlds",
+        "version": "Planet XV Extended Mix",
+        "time": "6:27"
+      },
+      {
+        "track": 4,
+        "title": "Alien Worlds",
+        "version": "Planet X Atmospheric Mix",
+        "time": "4:54"
+      }
+    ]
   }
 ]
