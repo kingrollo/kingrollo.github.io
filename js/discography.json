@@ -661,5 +661,79 @@
         "time": "4:54"
       }
     ]
+  },
+  {
+    "id": "BC32",
+    "parent": "BC20",
+    "type": "single",
+    "title": "Infinite Wisdom (Reverse Engineered)",
+    "url": "infinite-wisdom-reverse-engineered",
+    "image": "BC32.png",
+    "date": "2018-12-07",
+    "player_site": "BC",
+    "player_id": "2628817115",
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Infinite Wisdom",
+        "version": "Regenerated Edit",
+        "time": "4:05"
+      },
+      {
+        "track": 2,
+        "title": "Infinite Wisdom",
+        "version": "Reverse Engineered - Album Mix",
+        "time": "5:26"
+      },
+      {
+        "track": 3,
+        "title": "Infinite Wisdom",
+        "version": "Reverse Engineered - 2004 Single Mix",
+        "time": "3:56"
+      },
+      {
+        "track": 4,
+        "title": "Infinite Wisdom",
+        "version": "Degenerated",
+        "time": "4:33"
+      }
+    ]
+  },
+  {
+    "id": "BC33",
+    "parent": "BC20",
+    "type": "single",
+    "title": "Fading Synthesis (Reverse Engineered)",
+    "url": "fading-synthesis-reverse-engineered",
+    "image": "BC33.png",
+    "date": "2019-01-26",
+    "player_site": "BC",
+    "player_id": "3136306875",
+    "tracks": [
+      {
+        "track": 1,
+        "title": "Fading Synthesis",
+        "version": "Faded Revival",
+        "time": "4:08"
+      },
+      {
+        "track": 2,
+        "title": "Fading Synthesis",
+        "version": "Reverse Engineered - Album Mix",
+        "time": "4:24"
+      },
+      {
+        "track": 3,
+        "title": "Fading Synthesis",
+        "version": "Reverse Engineered - Retrograde Mix",
+        "time": "4:24"
+      },
+      {
+        "track": 4,
+        "title": "Fading Synthesis",
+        "version": "Jaded Revival",
+        "time": "3:50"
+      }
+    ]
   }
 ]
